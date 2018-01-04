@@ -1,0 +1,7 @@
+include ':app'
+include ':moduleA'
+project(':moduleA').projectDir = new File(rootProject.projectDir, '../appmodule/moduleA')
+include ':moduleA:modulea'
+project(':moduleA:modulea').projectDir = new File(rootProject.projectDir, '../appmodule/moduleA/modulea')
+include ':moduleA:app'
+project(':moduleA:app').projectDir = new File(rootProject.projectDir, '../appmodule/moduleA/app')
