@@ -12,6 +12,8 @@
             <option value="$PROJECT_DIR$/../appmodule/moduleA" />
             <option value="$PROJECT_DIR$/../appmodule/moduleA/app" />
             <option value="$PROJECT_DIR$/../appmodule/moduleA/modulea" />
+            <option value="$PROJECT_DIR$/../appmodule/moduleB" />
+            <option value="$PROJECT_DIR$/../appmodule/moduleB/app" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

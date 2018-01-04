@@ -1,7 +1,15 @@
 include ':app'
-include ':moduleA'
-project(':moduleA').projectDir = new File(rootProject.projectDir, '../appmodule/moduleA')
-include ':moduleA:modulea'
-project(':moduleA:modulea').projectDir = new File(rootProject.projectDir, '../appmodule/moduleA/modulea')
-include ':moduleA:app'
-project(':moduleA:app').projectDir = new File(rootProject.projectDir, '../appmodule/moduleA/app')
+
+/** === include ':moduleA' === **/
+include ':moduleAFolder'
+project(':moduleAFolder').projectDir = new File(rootProject.projectDir, '../appmodule/moduleA')
+include ':modulea'
+project(':modulea').projectDir = new File(rootProject.projectDir, '../appmodule/moduleA/modulea')
+include ':moduleAFolder:app'
+project(':moduleAFolder:app').projectDir = new File(rootProject.projectDir, '../appmodule/moduleA/app')
+
+/** === include ':moduleB' === **/
+include ':moduleBFolder'
+project(':moduleBFolder').projectDir = new File(rootProject.projectDir, '../appmodule/moduleB')
+include ':moduleBFolder:app'
+project(':moduleBFolder:app').projectDir = new File(rootProject.projectDir, '../appmodule/moduleB/app')

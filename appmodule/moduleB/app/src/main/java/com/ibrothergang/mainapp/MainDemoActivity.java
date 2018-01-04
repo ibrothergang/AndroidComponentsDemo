@@ -6,8 +6,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
-import com.ibrothergang.samplelibrary.SampleLibraryDemoActivity;
-
 public class MainDemoActivity extends AppCompatActivity {
     private TextView mTxtInfo;
 
@@ -19,8 +17,6 @@ public class MainDemoActivity extends AppCompatActivity {
     }
 
     public void button01Click(View view) {
-        Intent intent = new Intent(this, SampleLibraryDemoActivity.class);
-        startActivity(intent);
     }
 
     public void button02Click(View view) {

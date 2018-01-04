@@ -4,8 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MainApp.iml" filepath="$PROJECT_DIR$/MainApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/MainApp-app.iml" filepath="$PROJECT_DIR$/app/MainApp-app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../appmodule/moduleA/moduleA.iml" filepath="$PROJECT_DIR$/../appmodule/moduleA/moduleA.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../appmodule/moduleA/app/moduleA-app.iml" filepath="$PROJECT_DIR$/../appmodule/moduleA/app/moduleA-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../appmodule/moduleA/moduleAFolder.iml" filepath="$PROJECT_DIR$/../appmodule/moduleA/moduleAFolder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../appmodule/moduleA/app/moduleAFolder-app.iml" filepath="$PROJECT_DIR$/../appmodule/moduleA/app/moduleAFolder-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../appmodule/moduleB/moduleBFolder.iml" filepath="$PROJECT_DIR$/../appmodule/moduleB/moduleBFolder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../appmodule/moduleB/app/moduleBFolder-app.iml" filepath="$PROJECT_DIR$/../appmodule/moduleB/app/moduleBFolder-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/../appmodule/moduleA/modulea/modulea.iml" filepath="$PROJECT_DIR$/../appmodule/moduleA/modulea/modulea.iml" />
     </modules>
   </component>
